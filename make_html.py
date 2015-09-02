@@ -35,10 +35,10 @@ with open("ratings.txt") as f:
             continue
         name, *ratings = line.split()
         l, m, med, std = stats(ratings)
-        vals.append((l, m, med, std))
-    for line in sorted(vals, key=lambda x: x[0]):
-        l, m, med, std = line
-        print("{name:20s} {m:4.2f}  {med:6.0f} {std:6.2f}".format(name=name, m=m, med=med, std=std))
+        vals.append((name, l, m, med, std))
+    for line in sorted(vals, key=lambda x: -x[2]):
+        name, l, m, med, std = line
+        print("{name:20s} {m:4.2f}  {med:6.0f} {std:6.2f} ({l} ratings)".format(name=name, m=m, med=med, std=std, l=l))
 
 print("</pre></html>")
 
