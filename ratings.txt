@@ -6,5 +6,5 @@
 Rosabaya 3
 Ristretto 4
 Milano 3
-Palermo 3
+Palermo 3 4
 Volluto 2
