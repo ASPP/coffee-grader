@@ -28,9 +28,11 @@ def stats(ratings):
 print("<html><pre>")
 
 with open("ratings.txt") as f:
+    print("Advanced Scientific Programming in Python, #aspp2015")
+    print("Grade your ☕☕☕☕☕.")
+    print()
     print("Coffee               MEAN  MEDIAN    STD")
     print("------               ----  ------    ---")
-    print()
     vals = []
     for line in f.readlines():
         if not line.strip() or line.startswith("#") or line.startswith(" "):
