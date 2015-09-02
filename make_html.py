@@ -42,5 +42,10 @@ with open("ratings.txt") as f:
         name, l, m, med, std = line
         print("{name:20s} {m:4.2f}  {med:6.0f} {std:6.2f} ({l} ratings)".format(name=name, m=m, med=med, std=std, l=l))
 
+print("")
+print("")
+
+print("Edit <a href="https://github.com/ASPP/coffee-grader/blob/master/ratings.txt">https://github.com/ASPP/coffee-grader/blob/master/ratings.txt</a> and add what you think.")
+
 print("</pre></html>")
 
