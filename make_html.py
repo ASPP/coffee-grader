@@ -45,7 +45,7 @@ with open("ratings.txt") as f:
 print("")
 print("")
 
-print("Edit <a href="https://github.com/ASPP/coffee-grader/blob/master/ratings.txt">https://github.com/ASPP/coffee-grader/blob/master/ratings.txt</a> and add what you think.")
+print('Edit <a href="https://github.com/ASPP/coffee-grader/blob/master/ratings.txt">https://github.com/ASPP/coffee-grader/blob/master/ratings.txt</a> and add what you think.')
 
 print("</pre></html>")
 
