@@ -1,0 +1,9 @@
+# Rate your coffee
+# Ratings between 0 and 5, space-separated. e.g.
+# my-coffee 4 1 3 2 0 4 5
+
+Rosabaya 3
+Ristretto 4
+Milano 3
+Palermo 3
+Volluto 2
