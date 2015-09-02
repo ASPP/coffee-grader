@@ -2,15 +2,7 @@
 
 BRANCH="master"
 
-if
-  [ "$TRAVIS_REPO_SLUG" == "$REPO" ] &&
-  [ "$TRAVIS_PULL_REQUEST" == "false" ] &&
-  [ "$TRAVIS_PYTHON_VERSION" == "3.4" ] &&
-  [ "$TRAVIS_BRANCH" == "$BRANCH" ]; then
-
   echo "Trying to build documentation."
-
-  pip install Sphinx
 
   cd $HOME
   git config --global user.email "travis@travis-ci.org"
@@ -38,5 +30,3 @@ if
   git update-ref refs/heads/gh-pages $commit
 
   git push -q origin gh-pages
-
-fi
