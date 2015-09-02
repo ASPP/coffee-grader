@@ -31,7 +31,7 @@ with open("ratings.txt") as f:
     print("Coffee               MEAN  MEDIAN    STD")
     vals = []
     for line in f.readlines():
-        if line.startswith("#") or line.startswith(" "):
+        if not line.strip() or line.startswith("#") or line.startswith(" "):
             continue
         name, *ratings = line.split()
         l, m, med, std = stats(ratings)
