@@ -3,8 +3,10 @@
 # my-coffee 4 1 3 2 0 4 5
 # Results are shown on http://aspp.github.io/coffee-grader/
 
-Rosabaya 3
-Ristretto 4
+Rosabaya 3 4
+Ristretto 4 5 4
 Milano 3
 Palermo 3 4
-Volluto 2
+Volluto 2 0 2
+Roma 5 3
+Arpeggio_Decaf 0 2 3
