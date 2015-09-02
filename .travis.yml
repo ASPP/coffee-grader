@@ -6,4 +6,8 @@ after_success:
 - "./deploy-gh-pages.sh"
 env:
   global:
+    REPO: "ASPP/coffee-grader"
     secure: BTPkqAmTv2zPoZEFerwzyZCtDxfsjTAfoK13gPPiO8xk/x6/HWRJP3QWBb7W3mJlYqQKT2Pjfo7x/NKrTj597Ngs5UcNHhB1pOUAp26j3GytUP/mjcsWUDzPNw16qu4k4AvcLr9YBvhHRn5vFPn3Auv+26dCqOum7gk/x5GFtbjiaKfm/4qWWEaqMDzyWUFyjvltBrIavaIMVLSxr8tx5PLY9ILVSHv0g2nUXuZTko0jyf2/LWkn+/3PcYsKYiEiCiBldUnRyklvBgiro2wP+5ckhKfq9n9xpOtoAi/Mwevz9DIfXJqZSE0YX+XRUw6kU+1CKr95Y2YdDggzjtQTSkV1QKFTxvzV/aiOxz3tpk04Dk9h91a5UJqddtF85IJKU9lC5kor2yQ8ZgQhE/Sqc8Phrx8gnHEKEpw+pmOeZ8BUj6KFPuPxQamnVC8Qg8+hoXHuGkPT+C3fBSeJ+GIZoEk5Q3MmC+w3GnCz8hr0stFDvgEPktLLuM3ZxZOEpva6u0eljb8RcqJo3jf/cKZMIT0lL/nhPrzYZgOOB4qOb7mBoT56vqqvkaUXWHXoGhfFzkpmKJtzWHp5JL2nHbShOMVVr+mPN/jNpYT4xfI1hcWX/bQV9d1uQwxU5ZvfJyVJel34EdJhm35dhhA1qu1ih4mpuwR38l2WOMw70QOVHX0=
+script: >
+        ./make_html.py
+
