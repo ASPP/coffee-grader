@@ -17,6 +17,7 @@ git_describe=$(git describe)
 echo "Generating from $git_describe"
 
 docdirectory=doc/
+rm -rf "$docdirectory"
 mkdir "$docdirectory"
 ./make_html.py > "$docdirectory"/index.html
 
