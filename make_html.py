@@ -29,6 +29,8 @@ print("<html><pre>")
 
 with open("ratings.txt") as f:
     print("Coffee               MEAN  MEDIAN    STD")
+    print("------               ----  ------    ---")
+    print()
     vals = []
     for line in f.readlines():
         if not line.strip() or line.startswith("#") or line.startswith(" "):
