@@ -5,6 +5,7 @@
 
 Rosabaya 3
 Ristretto 4
-Milano 3
+Milano 3 4
 Palermo 3 4
 Volluto 2
+Dharkan 4
