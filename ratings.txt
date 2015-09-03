@@ -5,7 +5,7 @@
 # Results are shown on http://aspp.github.io/coffee-grader/
 
 Rosabaya 3 4
-Ristretto 4 5 4
+Ristretto 4 5 4 4
 Milano 3
 Palermo 3 4
 Volluto 2 0 2
