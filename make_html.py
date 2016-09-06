@@ -28,7 +28,7 @@ def stats(ratings):
 print("<html><pre>")
 
 with open("ratings.txt") as f:
-    print("Advanced Scientific Programming in Python, #aspp2015")
+    print("Advanced Scientific Programming in Python, Reading, #aspp2016")
     print("Grade your ☕☕☕☕☕.")
     print()
     print("Coffee               MEAN  MEDIAN    STD")
